@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "mainText": "데일리코딩 제출",
+      "scheduledTime": "10:00",
+      "importance": false
+    },
+    {
+      "id": 3,
+      "mainText": "점심시간",
+      "scheduledTime": "12:00",
+      "importance": false
+    },
+    {
+      "id": "1a6fadc9-744a-4e23-8cd9-72d8a7df00ef",
+      "mainText": "스프린트하기",
+      "scheduledTime": "22:13",
+      "importance": true
+    },
+    {
+      "id": "df026555-7563-4adc-aae8-69c284a49730",
+      "mainText": "잠자기",
+      "scheduledTime": "22:36",
+      "importance": true
+    }
+  ]
+}
