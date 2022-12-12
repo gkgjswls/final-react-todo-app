@@ -14,6 +14,7 @@ function Editform({setValue}){
   };
 
   const handleKeyUp = (event) => {
+      if(maintext === '') return
 
       if (event.code === 'Enter') {
     
@@ -46,6 +47,7 @@ function Editform({setValue}){
   };
 
   const submit = () =>{
+    if(maintext === '') return
 
     const reqbody ={
       id: uuidv4(),
