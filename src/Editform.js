@@ -15,10 +15,6 @@ function Editform({setValue}){
 
   const handleKeyUp = (event) => {
       if(maintext === '') return
-<<<<<<< HEAD
-=======
-
->>>>>>> ee7869f2196f79c8037f51b093b227926fb17790
       if (event.code === 'Enter') {
     
         const reqbody ={
