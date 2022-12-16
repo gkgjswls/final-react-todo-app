@@ -14,7 +14,7 @@ function Editform({setValue}){
   };
 
   const handleKeyUp = (event) => {
-
+      if(maintext === '') return
       if (event.code === 'Enter') {
     
         const reqbody ={
@@ -46,6 +46,7 @@ function Editform({setValue}){
   };
 
   const submit = () =>{
+    if(maintext === '') return
 
     const reqbody ={
       id: uuidv4(),
@@ -84,7 +85,7 @@ function Editform({setValue}){
       </div>
       <div className='mainText'>
         <div className='createAt'>
-          <input type='time'  value = {newTime} onChange={(e)=>{setTime(e.target.value)}}></input>
+          <input type='time'  value = {newTime} onChange={(e)=>{setTime(e.target.value)}} required></input>
         </div>
         <div className='todo_text'>
         <input type='text' value={maintext} onChange={handleInputChange} onKeyUp={handleKeyUp}></input>
